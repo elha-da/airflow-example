@@ -1,0 +1,5 @@
+.idea
+venv/
+airflow-stack/dags
+airflow-stack/logs
+airflow-stack/postgres-data
