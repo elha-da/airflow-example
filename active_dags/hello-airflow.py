@@ -17,7 +17,7 @@ default_args = {
     "depends_on_past": False,
     "start_date": dates.days_ago(1),
     "retries": 1,
-    "retry_delay": timedelta(minutes=1),
+    "retry_delay": timedelta(minutes=60),
     "provide_context": True,
 }
 
